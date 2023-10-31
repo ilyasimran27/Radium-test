@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Radium-test/static/css/main.1631be9c.css",
+    "main.css": "/Radium-test/static/css/main.c0fbe5c7.css",
     "main.js": "/Radium-test/static/js/main.259f743b.js",
     "index.html": "/Radium-test/index.html",
-    "main.1631be9c.css.map": "/Radium-test/static/css/main.1631be9c.css.map",
+    "main.c0fbe5c7.css.map": "/Radium-test/static/css/main.c0fbe5c7.css.map",
     "main.259f743b.js.map": "/Radium-test/static/js/main.259f743b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1631be9c.css",
+    "static/css/main.c0fbe5c7.css",
     "static/js/main.259f743b.js"
   ]
 }
