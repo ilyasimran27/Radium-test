@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import SelectBox from "./shared/SelectBox";
 import SearchBox from "./shared/SearchBox";
 
-const SortTable = ({ data, titles, source }) => {
+const Table = ({ data, titles, source }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
   const [clickCount, setClickCount] = useState(0);
   const [selectedTitle, setSelectedTitle] = useState("All");
@@ -55,7 +55,7 @@ const SortTable = ({ data, titles, source }) => {
     });
 
     setFilteredData(newFilteredData);
-    setSelectedTitle("All"); // Reset the selectedTitle to "All" on search
+    setSelectedTitle("All");
   };
 
   const sortedData = filteredData.concat().sort((a, b) => {
@@ -128,4 +128,4 @@ const SortTable = ({ data, titles, source }) => {
   );
 };
 
-export default SortTable;
+export default Table;

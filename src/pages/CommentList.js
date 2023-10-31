@@ -1,7 +1,7 @@
 // src/components/TodoList.js
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import SortTable from "../components/SortTable";
+import Table from "../components/Table";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const CommentList = () => {
@@ -28,7 +28,7 @@ const CommentList = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">List of Comments</h1>
-      <SortTable data={todos} titles={names} source={"comment"} />
+      <Table data={todos} titles={names} source={"comment"} />
       <ToastContainer />
     </div>
   );

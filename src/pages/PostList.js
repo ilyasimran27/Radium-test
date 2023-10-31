@@ -1,7 +1,7 @@
 // src/components/PostList.js
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import SortTable from "../components/SortTable";
+import Table from "../components/Table";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const PostList = () => {
@@ -28,7 +28,7 @@ const PostList = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">List of Posts</h1>
-      <SortTable data={posts} titles={titles} source={"post"} />
+      <Table data={posts} titles={titles} source={"post"} />
       <ToastContainer />
     </div>
   );
